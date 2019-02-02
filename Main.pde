@@ -206,6 +206,7 @@ void mouseClicked() {
     }
   } else if (menu == 1) {
     if (play.click()) {
+      pause.tex = "Pause";
       if (ratio() > 4/3) {
         widthDisp = 666;
         heightDisp = 666/ratio();
